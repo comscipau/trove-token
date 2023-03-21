@@ -13,7 +13,7 @@ const Landing = () => {
         <img src={LOGO} alt="LOGO" className="w-[128px] h-[128px]" />
         <div className="-ml-2">
           <p className="font-extrabold text-2xl mb-2">Trove Token</p>
-          <button className="font-medium italic text-base">Exit App</button>
+          <button className="font-bold text-base">Exit App</button>
         </div>
       </div>
 
@@ -46,7 +46,7 @@ const Landing = () => {
       </div>
 
       <div className="bigBox flex flex-col items-center mt-10 h-min lg:ml-6 mx-4 mb-[3.5rem] lg:mb-0">
-        <p className="text-2xl lg:text-4xl mt-8 lg:mt-[3.88rem] px-[4.19rem] lg:px-[5.13rem]">
+        <p className="text-2xl lg:text-4xl mt-8 lg:mt-[3.88rem] px-0 lg:px-[5.13rem]">
           Account History
         </p>
         <div className="w-[12.5rem] lg:w-[16.38rem] text-xs mt-[2.63rem] lg:mt-[4.13rem]">
