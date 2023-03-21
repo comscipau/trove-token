@@ -29,7 +29,8 @@ const Landing = () => {
           <select
             name="reward"
             id="reward"
-            className="text-black w-[12.5rem] lg:w-[16.44rem] shadow-selectFRMShadow mt-4 mb-[7.31rem] lg:mb-[10.69rem]"
+            className="text-black w-[12.5rem] lg:w-[16.44rem] shadow-selectFRMShadow mt-4 mb-[4rem]"
+            // className="text-black w-[12.5rem] lg:w-[16.44rem] shadow-selectFRMShadow mt-4 mb-[7.31rem] lg:mb-[10.69rem]"
           >
             {/* <option value="a">Reward A</option>
             <option value="b">Reward B</option>
@@ -37,10 +38,14 @@ const Landing = () => {
             <option value="d">Reward D</option> */}
           </select>
           <br />
+          <label className="text-xs">FRESHSWAP BNB REWARD:</label>
+          <br />
+          <label className="text-xs font-normal">0.001 BNB</label>
+          <br />
           <input
             type="submit"
             value="CLAIM"
-            className="btnTrove py-3 px-[4.69rem] lg:px-[6.69rem] mb-[2.88rem] lg:mb-20 hover:cursor-pointer"
+            className="btnTrove py-3 px-[4.69rem] lg:px-[6.69rem] mb-[2.88rem] lg:mb-20 hover:cursor-pointer mt-[3.8rem]"
           />
         </form>
       </div>
